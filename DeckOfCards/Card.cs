@@ -8,8 +8,11 @@
 
         public string GetFullName()
         {
+            string fullName = $"{FaceValue} of {Suit}";
             // TODO: Return the full name of the card. Ex: 2 of Hearts
-            return "";
+            return fullName;
+
+            //return fullname = $"{FaceValue} of {Suit}";
         }
     }
 }
